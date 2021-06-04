@@ -1,0 +1,343 @@
+/* .white{
+  color: white;
+}
+
+.nav-section{
+  background-color: hsl(356, 100%, 66%);
+  height: 500px;
+  border-bottom-left-radius: 5rem;
+}
+
+.navbar{
+  padding-left: 20rem;
+}
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 6rem;
+  font-size: 3.25rem;
+  text-decoration: none;
+}*/
+/* body{
+  width: min-content;
+} */
+
+/* $FontWidth: 700; */
+
+body{
+  font-family: "Overpass", sans-serif;
+}
+
+.section-1{
+  /* background-image: url(/images/bg-pattern-circles.svg) */
+  background-image:  url(/images/bg-pattern-intro.svg), linear-gradient(
+    220deg, #ff3d54 40%, #ff8f70 80%);
+    background-size: 200%;
+    background-position: 17% 53%;
+}
+.middle-section{
+  padding-top:10rem;
+}
+
+.dropdown-item.active, .dropdown-item:active ,.dropdown-item{
+  color:black !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: black !important;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  border-radius: .5rem;
+}
+.formbutton{
+  display: flex;
+  margin: auto;
+}
+.btn-outline-success-signup{
+  background-color: #fff;
+  color: hsl(356, 100%, 66%);
+  border-radius: 1rem;
+}
+.btn-outline-success-signup:hover{
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+  border-radius: 1rem;
+}
+a.navbar-brand ,.nav-link,.navbar-nav .nav-link .nav-link:focus, .navbar-nav .nav-link:hover ,.navbar-light .navbar-brand,.py-5
+,ul.list-unstyled ,.btn-outline-success-login{
+  color: white ;
+}
+
+
+.welcomeText{
+display: inline-grid;
+text-align: center;
+padding-top: 5rem;
+color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } 
+
+h1.headingHeading{
+  font-family: 'Ubuntu';
+  font-weight: FontWidth;
+}
+.nav-section{
+  height: 500px;
+    width: auto;
+    border-bottom-left-radius: 5rem;
+    /* background-color: hsl(356, 100%, 66%); */
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+.web-buttons{
+  padding-right: 8rem;
+}
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+    padding-left: 8rem;
+    font-family: 'Ubuntu';
+}
+.middle-section{
+  overflow-x: hidden;
+}
+.bg-light{
+  /* background-color: hsl(356, 100%, 66%) !important; */
+  background-color: #ff8f70 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(0 0 0 / 0%);
+  border-color: rgb(0 0 0 / 0%);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.text-section2{
+  margin-top: 8rem;
+  margin-left:8rem;
+}
+.text-section-3 {
+  width: 80%;
+}
+.heading-text{
+  text-align: center;
+  
+}
+.desktop-icon{
+margin-top: -20rem;
+}
+.desktop-text{
+  margin-top: -6rem;
+}
+.second-para-section2{
+  margin-top: 5rem;;
+}
+
+.section-3{
+  background-color:hsl(237, 23%, 32%) ;
+  height: 350px;
+  width: auto;
+  background-image: url(/images/bg-pattern-circles.svg), linear-gradient(#2c2d3f, #3f4164);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: inherit;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+.phone-illus{
+  margin-top: -8rem;
+}
+.text-section-3{
+  color: white;
+  margin-top: 5rem;
+  font-size: large;
+}
+div.text-section-3>h3{
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-4{
+  margin-top:5rem;
+  height: 800px;
+}
+.text-section-4{
+  margin-top: 15rem;
+  padding-left: 4rem;
+  font-size: large;
+}
+.section-5{
+  height:400px;
+  background-color: hsl(237, 17%, 21%);
+}
+
+.text-White,.text-White:hover{
+  text-decoration: none;
+  font-weight: 400;
+  color: #c8c8cb;
+}
+.text-White:hover{
+  text-decoration: underline;
+}
+.editor-mobile,.phone-desktop{
+  display: none;
+}
+
+@media only screen and (min-width:1024px) {
+.editor-mobile{
+  display: none;
+}
+.text-section-3{
+  color: white;
+  margin-top: 5rem;
+  font-size: large;
+}
+.text-section-4{
+  margin-top: 15rem;
+  padding-left: 4rem;
+  font-size: large;
+}
+
+}
+
+@media only screen and (max-width:911px){
+  /* .editor-mobile{
+    display: grid;
+  }
+  .editor-desktop{
+    display: none !important;
+  } */
+  .text-section2 {
+    font-size: small;
+  }
+  div.text-section-3>h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+  .text-section-3 {
+    color: white;
+    margin-top: 3rem;
+    width: inherit;
+    margin-left: 8rem;
+    font-size: small;
+}
+
+.para-section4{
+  margin-left: 5rem;
+  font-size: 12px;
+  margin-top: 0rem;
+}
+.text-section-4{
+  padding-right: 4rem;
+}
+.section-5 {
+  height: 500px;
+}
+
+}
+
+
+@media only screen and (max-width:790px){
+
+  
+  .text-section-4 {
+    padding-right: 1rem;
+    margin-top: 15rem;
+    padding-left: 6rem;
+    font-size: large;
+}
+
+
+}
+
+@media only screen and (max-width:684px) {
+
+  .text-section2 {
+    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-right: 120px;
+}
+  .editor-desktop,.laptop-desktop{
+    display: none;
+  }
+  .editor-mobile{
+    display: flex;
+    margin-top: -25rem;
+    margin-left: 120px;
+  }
+  .phone-illus {
+    margin-top: -20rem;
+  }
+  
+  .section-3 {
+    margin-top: 300px;
+    height: 570px;
+  }
+  .middle-section {
+    padding-top: 23rem;
+  }
+  .text-section-3{
+    color: white;
+    margin-top: 0rem;
+    width: 500px;
+    margin-left: 5rem;
+    font-size: small;
+    text-align: center;
+  }
+  .phone-desktop{
+display: flex;
+    margin-left: 85px;
+  }
+  .text-section-4 {
+    padding-right: 5rem;
+    margin-top: 0rem;
+    padding-left: 0rem;
+    font-size: large;
+    text-align: center;
+}
+.desktop-text {
+  text-align: center;
+}
+.section-4 {
+  height: 600px;
+}
+.section-5 {
+  height: 800px;
+}
+.mobile-footer{
+  text-align: center;
+}
+.show{
+  text-align: center !important;
+  z-index: 1000;
+  /* display: none; */
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: .25rem;
+}
+
+.nav-link:focus, .nav-link:hover,.navbar-nav .nav-link:hover,.nav-link{
+  color: #000;
+}
+}
+
