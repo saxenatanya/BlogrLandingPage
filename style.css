@@ -28,6 +28,7 @@ body{
   font-family: "Overpass", sans-serif;
 }
 
+
 .section-1{
   /* background-image: url(/images/bg-pattern-circles.svg) */
   background-image:  url(/images/bg-pattern-intro.svg), linear-gradient(
@@ -198,6 +199,35 @@ div.text-section-3>h3{
   display: none;
 }
 
+
+
+@media screen and (max-width:1024px) {
+ 
+  div#navbarSupportedContent.navbar-collapse.collapse.show{
+    text-align: center !important;
+    z-index: 1000 ;
+    /* display: none; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+  }
+
+  .nav-link:focus, .nav-link:hover,.navbar-nav .nav-link:hover,.nav-link,.btn-outline-success-login{
+    color: #000;
+  }
+
+  .dropdown-menu {
+      background-clip: padding-box;
+}
+  
+}
+
+
 @media only screen and (min-width:1024px) {
 .editor-mobile{
   display: none;
@@ -213,6 +243,9 @@ div.text-section-3>h3{
   font-size: large;
 }
 
+
+
+
 }
 
 @media only screen and (max-width:911px){
@@ -222,6 +255,7 @@ div.text-section-3>h3{
   .editor-desktop{
     display: none !important;
   } */
+  
   .text-section2 {
     font-size: small;
   }
@@ -265,7 +299,7 @@ div.text-section-3>h3{
 
 }
 
-@media only screen and (max-width:684px) {
+@media only screen and (max-width:684px ) {
 
   .text-section2 {
     margin-top: 8rem;
@@ -324,7 +358,7 @@ display: flex;
 }
 .show{
   text-align: center !important;
-  z-index: 1000;
+  z-index: 1000 ;
   /* display: none; */
   min-width: 10rem;
   padding: .5rem 0;
@@ -341,3 +375,91 @@ display: flex;
 }
 }
 
+@media only screen and (max-width:547px )  {
+  .editor-mobile {
+    display: flex;
+    margin-top: -30rem;
+    margin-left: 120px;
+    width: 20rem;
+}
+
+/* phone-illus-mobile */
+
+}
+
+@media only screen and (max-width:456px){
+  .section-3 {
+    margin-top: 70px;
+    height: 570px;
+}
+  .phone-illus {
+    margin-top: -12rem;
+    margin-left: 4rem;
+}
+  .editor-mobile {
+    display: flex;
+    margin-top: -35rem;
+    margin-left: 93px;
+    width: 17rem;
+}
+.phone-illus-mobile{
+  width: 20rem;
+  margin-top: 8rem;
+}
+.text-section-3 {
+  color: white;
+  margin-top: 2rem;
+  width: 300px;
+  margin-left: 5rem;
+  font-size: small;
+  text-align: center;
+}
+.phone-desktop {
+  display: flex;
+  margin-left: -18px;
+}
+}
+
+@media only screen and (max-width: 342px)
+{
+  .editor-mobile {
+    display: flex;
+    margin-top: -73rem;
+    margin-left: 40px;
+    width: 17rem;
+}
+.phone-illus {
+  margin-top: -12rem;
+  margin-left: 0rem;
+}
+.text-section-3 {
+  color: white;
+  margin-top: 2rem;
+  width: 300px;
+  margin-left: 1rem;
+  font-size: small;
+  text-align: center;
+}
+.desktop-icon {
+  margin-top: 23rem;
+}
+.phone-desktop {
+  display: flex;
+  margin-left: 10px;
+  width: 20rem;
+}
+.heading-text {
+  text-align: center;
+  margin-left: 25px;
+}
+.text-section2 {
+  margin-top: 8rem;
+  margin-left: 3rem;
+  margin-right: 8px;
+  text-align: center;
+}
+.section-3 {
+  margin-top: -250px;
+  height: 570px;
+}
+}
