@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href=" https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <section class="section-1">
+  <header class="section-1">
     <div class="jumbotron nav-section ">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
@@ -39,13 +39,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link " href="#" id="navbarDropdownProduct" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Product <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                       <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                     </svg></span>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownProduct">
                   <li><a class="dropdown-item" href="#">Overview</a></li>
                   <li><a class="dropdown-item" href="#">Pricing</a></li>
                   <!-- <li><hr class="dropdown-divider"></li> -->
@@ -56,13 +56,13 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link " href="#" id="navbarDropdownCompany" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Company <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                       <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                     </svg></span>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
                   <li><a class="dropdown-item" href="#">About</a></li>
                   <li><a class="dropdown-item" href="#">Team</a></li>
                   <!-- <li><hr class="dropdown-divider"></li> -->
@@ -72,13 +72,13 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link " href="#" id="navbarDropdownConnect" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Connect <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                       <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                     </svg></span>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownConnect">
                   <li><a class="dropdown-item" href="#">Contact</a></li>
                   <li><a class="dropdown-item" href="#">Newsletter</a></li>
                   <!-- <li><hr class="dropdown-divider"></li> -->
@@ -86,9 +86,9 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex web-buttons">
-              <button class="btn btn-outline-success-login my-2 my-sm-0" type="submit">Login</button>
-              <button class="btn btn-outline-success-signup my-2 my-sm-0" type="submit">SingUp</button>
+            <form class=" web-buttons">
+              <button class="btn btn-outline-success-login-nav my-2 my-sm-0" type="submit">Login</button>
+              <button class="btn btn-outline-success-signup-nav my-2 my-sm-0" type="submit">SingUp</button>
             </form>
           </div>
         </div>
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-  </section>
+  </header>
 
   <section class="section-2">
     <div class=" middle-section">
@@ -136,8 +136,8 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-6 desktop-icon">
-          <img class="editor-mobile" src="./images/illustration-editor-mobile.svg" />
-          <img class="editor-desktop" src="./images/illustration-editor-desktop.svg" />
+          <img class="editor-mobile" src="./images/illustration-editor-mobile.svg" alt="Desktop illustration for Mobile"/>
+          <img class="editor-desktop" src="./images/illustration-editor-desktop.svg"   alt="Desktop illustration for Web"/>
         </div>
       </div>
 
@@ -149,7 +149,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-6 phone-illus">
           <span>
-            <img class="phone-illus-mobile" src="./images/illustration-phones.svg" />
+            <img class="phone-illus-mobile" src="./images/illustration-phones.svg"  alt="Mobile phone illustration" />
           </span>
         </div>
         <div class="col-md-6 col-lg-6">
@@ -169,8 +169,8 @@
   <section class="section-4">
     <div class="row">
       <div class="col-md-6 col-lg-6 ">
-        <img class="phone-desktop" src="./images/illustration-laptop-mobile.svg">
-        <img class="laptop-desktop" src="./images/illustration-laptop-desktop.svg">
+        <img class="phone-desktop" src="./images/illustration-laptop-mobile.svg"  alt="Desktop isllustration for Mobile">
+        <img class="laptop-desktop" src="./images/illustration-laptop-desktop.svg"  alt="Desktop isllustration for Mobile">
 
       </div>
       <div class="col-md-6 col-lg-6 text-section-4">
