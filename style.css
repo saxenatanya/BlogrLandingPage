@@ -625,7 +625,7 @@ div.text-section-3 > h3 {
   border-radius: 0.5rem;
   text-align: center;
   box-shadow: none;
-  color: var(--veryDarkGrayishBlue);
+  color:grey;
   padding: 20px 70px;
   background: rgba(200, 200, 203, 0.3);
 }
